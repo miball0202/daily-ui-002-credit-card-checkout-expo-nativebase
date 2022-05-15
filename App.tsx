@@ -19,7 +19,7 @@ export default function App() {
   return (
     <NativeBaseProvider>
       <Box safeAreaTop />
-      <Box flex={1} bg="coolGray.400">
+      <Box flex={1} bg="white">
         <Box flex={3}>
           <ScrollView bg="white" borderTopRadius={25} mx={3} mt={5}>
             <VStack space={3} px={3} pt={3}>
@@ -61,7 +61,7 @@ export default function App() {
           </VStack>
         </Box>
       </Box>
-      <Box flex={2} bg="coolGray.400" justifyContent="center">
+      <Box flex={2} bg="white" justifyContent="center">
         <VStack
           flex={1}
           space={3}
